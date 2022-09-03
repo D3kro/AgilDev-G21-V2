@@ -1,0 +1,64 @@
+@page
+@model TallerAutos.Frontend.Pages.Registro
+@{
+    ViewData["Title"] = "Registro";
+}
+
+
+
+<div class="conteinerDiv">
+    <div class="divConteiner">
+        <div class="divImg">
+            <img src="~/images/carBackground.jpg" alt="">
+        </div>
+        <div class="divForm">
+            <form class="form">
+                <div class="divInput">
+                    <label for="userName">Nombre completo: </label>
+                    <input type="text" id="userName">
+                </div>
+                <div class="divInput">
+                    <label for="typeCC">Tipo de documento</label>
+                    <input type="text" id="typeCC">
+                </div>
+                <div class="divInput">
+                    <label for="userCC">Documento: </label>
+                    <input type="text" id="userCC">
+                </div>
+                <div class="divInput">
+                    <label for="Email">Correo electronico: </label>
+                    <input type="email" id="Email">
+                </div>
+                <div class="divInput">
+                    <label for="userPhone">Número de telefono: </label>
+                    <input type="text" id="userPhone">
+                </div>
+                <div class="divInput">
+                    <label for="userPass">Contraseña: </label>
+                    <input type="password" id="userPass">
+                </div>
+                <div class="divInput">
+                    <label for="userPass2">Verificar contraseña: </label>
+                    <input type="password" id="userPass2">
+                </div>
+                <div class="divInput">
+                    <label>Tipo de usuario: </label>
+                    <select id="selectTypeUser">
+                        <option>Cliente</option>
+                        <option>Tecnico</option>
+                    </select>
+                </div>
+                <div class="divInput hidden" id="tecDiv">
+                    <label for="tecTitle">Ingrese su titulo: </label>
+                    <input type="text" id="tecTitle">
+                </div>
+                <div class="divBtn">
+                    <input type="submit" value="Registrarse">
+                    <a href="/" class="linkBtn">Iniciar Sesión</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+<script src="~/js/addTitle.js"></script>

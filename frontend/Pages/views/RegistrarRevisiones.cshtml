@@ -1,0 +1,54 @@
+@page
+@model TallerAutos.Frontend.Pages.RegistrarRevisiones
+@{
+    ViewData["Title"] = "Registrar Revisiones";
+}
+
+@Html.Partial("_navView");
+
+<div class="conteinerDiv">
+    <div class="divConteiner">
+        <div class="divImg">
+            <img src="~/images/carBackground.jpg" alt="">
+        </div>
+        <div class="divForm"> 
+            <form class="form">
+                <div class="">
+                    <div class="divInput">
+                        <label for="cliente">Nombre cliente: </label>
+                        <input type="text" id="cliente" placeholder="digite un nombre">
+                    </div>
+                    <div class="divInput">
+                        <label for="vehiculo">Vehiculo: </label>
+                        <select id="vehiculo">
+                            <option>Seleccione una opcion</option>
+                        </select>
+                    </div>
+                    <div class="divInput">
+                        <label for="fecha">Fecha de revision: </label>
+                        <input type="date" id="fecha">
+                    </div>
+                    <div class="divInput">
+                        <label for="estado">Estado de la revision: </label>
+                        <select id="estado">
+                            <option>Seleccione una opcion</option>
+                            <option>Completado</option>
+                            <option>En Revision</option>
+                            <option>Diagnostico</option>
+                        </select>
+                    </div>
+                </div>
+
+                <label for="descripcion">Descripcion de la revision: </label>
+                <textarea id="descripcion">
+
+            </textarea>
+                <label for="repuesto">Descripcion del repuesto: </label>
+                <textarea id="repuesto">
+
+            </textarea>
+                <input type="submit" value="Enviar Revision">
+            </form>
+        </div>
+    </div>
+</div>

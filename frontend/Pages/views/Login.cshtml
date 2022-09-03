@@ -1,0 +1,36 @@
+@page
+@model TallerAutos.Frontend.Pages.Login
+@{
+    ViewData["Title"] = "Inicia Sesión";
+}
+
+
+
+<div class="conteinerDiv">
+    <div class="divConteiner">
+        <div class="divImg">
+            <img src="~/images/carBackground.jpg" alt="">
+        </div>
+        <div class="divForm">
+            <img class="imgLogin" src="/images/userLogo.png" alt="">
+            <form class="form">
+                <div class="divInput">
+                    <label for="IdUser">Nombre: </label>
+                    <input type="text" id="IdUser">
+                </div>
+                <div class="divInput">
+                    <label for="passUser">Contraseña: </label>
+                    <input type="password" id="passUser">
+                </div>
+                
+                <div class="divBtn">
+                    <a   class="linkBtn" href="/views/Registro">Crear Cuenta</a>
+                    <input type="submit" value="Iniciar Sesión" class="btnSubmit">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script src="~/js/validateLogin.js"></script>

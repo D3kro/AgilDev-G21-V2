@@ -1,0 +1,30 @@
+Pasos:
+Se crea la solución
+dotnet new sln -o MantenimientoTic
+Entramos al directorio de la solución recién creado
+cd MantenimientoTic
+Se crean dos proyectos “dominio”, donde van las clases. Y “consola”, el programa. Más adelante se agrega persistencia.
+dotnet new classlib -o dominio
+dotnet new console -o consola
+Agregar los proyectos a la solución
+dotnet sln add ./consola/consola.csproj
+dotnet sln add ./dominio/dominio.csproj
+cd consola
+dotnet add consola.csproj reference ../dominio/dominio.csproj – Para poder usar las clases del dominio en el proyecto consola. “using dominio;” ahora funciona.
+cd.. – Para devolvernos
+dotnet run --project consola/consola.csproj  - Debería imprimir Hola Mundo.
+Se creó la capa de persistencia
+dotnet new classlib -o persistencia
+dotnet sln add persistencia/persistencia.csproj
+cd .\persistencia\
+dotnet tool install --global dotnet-ef --version 5.0.9
+Se cambió el target de 2.0 a 2.1 en csproj para dominio y persistencia:
+<TargetFramework>netstandard2.1</TargetFramework>
+Se agregan paquetes a persistencia y luego uno a consola
+dotnet add package Microsoft.EntityFrameworkCore --version 5.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.0
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.
+cd..
+cd consola
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.0

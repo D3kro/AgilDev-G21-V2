@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\frontend\\frontend.csproj": {}
+  },
+  "projects": {
+    "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\dominio\\dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\dominio\\dominio.csproj",
+        "projectName": "dominio",
+        "projectPath": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\dominio\\dominio.csproj",
+        "packagesPath": "C:\\Users\\HarryFora\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HarryFora\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\frontend\\frontend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\frontend\\frontend.csproj",
+        "projectName": "frontend",
+        "projectPath": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\frontend\\frontend.csproj",
+        "packagesPath": "C:\\Users\\HarryFora\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\frontend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HarryFora\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\dominio\\dominio.csproj": {
+                "projectPath": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\dominio\\dominio.csproj"
+              },
+              "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\persistencia\\persistencia.csproj": {
+                "projectPath": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\persistencia\\persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\persistencia\\persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\persistencia\\persistencia.csproj",
+        "projectName": "persistencia",
+        "projectPath": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\persistencia\\persistencia.csproj",
+        "packagesPath": "C:\\Users\\HarryFora\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HarryFora\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\dominio\\dominio.csproj": {
+                "projectPath": "D:\\Escritorio\\MisionTicAutos\\AGILDEV-G21\\dominio\\dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

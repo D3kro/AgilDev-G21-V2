@@ -1,0 +1,37 @@
+@page
+@model TallerAutos.App.Frontend.Pages.ConsultarEstadoVehiculo
+@{
+    ViewData["Title"] = "Consultar Mi Vehiculo";
+}
+
+
+
+<div class="conteinerDiv">
+    <div class="divConteiner">
+        <div class="divForm">
+            <form class="form">
+                <label for="SelectCar">Seleccione su vehiculo: </label>
+                <select id="SelectCar">
+                    <option>Seleccione una opcion</option>
+                    <option>primer</option>
+                </select>
+                <input type="submit" value="Consultar">
+            </form>
+        </div>
+        <table>
+            <thead>
+                <th>Placa</th>
+                <th>Modelo</th>
+                <th>Marca</th>
+                <th>Color</th>
+            </thead>
+            <tbody>
+                <td>123-456</td>
+                 <td>2022</td>
+                  <td>Ford</td>
+                   <td>Negro</td>
+            </tbody>
+        </table>
+    </div>
+
+</div>

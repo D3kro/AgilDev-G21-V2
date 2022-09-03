@@ -1,0 +1,151 @@
+﻿* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #212F38;
+}
+
+.conteinerDiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.divConteiner {
+  color: #e0e0dd;
+  background-color: #1d2e3b;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divConteiner {
+  flex-direction: row;
+  box-shadow: 1px 1px 5px #000;
+  border-radius: 5px;
+}
+
+.divImg {
+  width: 40%;
+  align-items: flex-start;
+}
+
+.divImg img{
+  width: 100%;
+  height: 50%;
+}
+
+.divForm {
+  width: 60%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+input, select, textarea, .linkBtn {
+  background-color: #CCCBC6;
+  font-size: 20px;
+  padding:  10px 20px; 
+  margin: 10px 0;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.divInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-top: 20px;
+  resize: none;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover, a:hover {
+  cursor: pointer;
+  background-color: #181817;
+  color: #FFF;
+  border-color: #181817;
+}
+
+.divBtn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  text-align: center;
+}
+
+.divBtn input, .divBtn .linkBtn{
+  width: 40%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+
+.imgLogin {
+  text-align: center;
+  width: 60%;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.nav ol{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #181817;
+
+}
+
+li a{
+  font-size: 20px;
+  color: #CCCBC6;
+}
+
+li {
+  padding: 40px;
+}
+
+li:hover, li a:hover{
+  background-color: #9b9b98;
+  color: #000;
+}
+
+
