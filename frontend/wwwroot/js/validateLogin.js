@@ -3,13 +3,18 @@ const pass = document.getElementById('passUser');
 const submit = document.querySelector('.btnSubmit');
 submit.addEventListener('click', e => {
     e.preventDefault();
+    let c = 0;
     if(user.value == "") {
-        e.preventDefault();
         alert('ingrese un nombre de usuario');
+        c++;
     } 
     if(pass.value == "") {
-        e.preventDefault();
          alert('ingrese una contraseña de usuario');
+         c++;
     }
-    window.location.replace('/nav/_navPageTec');
+
+    if(c == 0) {
+        window.location.replace('/views/RegistrarRevisiones');
+    }
+    
 });

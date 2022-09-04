@@ -4,14 +4,15 @@
     ViewData["Title"] = "Registrar Revisiones";
 }
 
-@Html.Partial("_navView");
 
+@Html.Partial("_navView");
 <div class="conteinerDiv">
+
     <div class="divConteiner">
         <div class="divImg">
             <img src="~/images/carBackground.jpg" alt="">
         </div>
-        <div class="divForm"> 
+        <div class="divForm">
             <form class="form">
                 <div class="">
                     <div class="divInput">
@@ -39,16 +40,41 @@
                     </div>
                 </div>
 
-                <label for="descripcion">Descripcion de la revision: </label>
-                <textarea id="descripcion">
 
-            </textarea>
-                <label for="repuesto">Descripcion del repuesto: </label>
-                <textarea id="repuesto">
+                <div class="divInput">
+                    <label for="descripcion">Descripcion de la revision: </label>
+                    <textarea id="descripcion"></textarea>
+                </div>
 
-            </textarea>
-                <input type="submit" value="Enviar Revision">
+                <div class="divInput">
+                    <label for="cantidad">Cantidad de Repuestos: </label>
+                    <input type="number" name="" id="cantidad">
+                </div>
+                <div class="divInput">
+                    <label for="repuesto">Descripcion del repuesto: </label>
+                    <input type="text" id="repuesto">
+                </div>
+                <div class="listRepuestos">
+                    <input type="button" value="Añadir Repuesto" id="addBtn">
+                    <table id="tableRepuestos">
+                        <thead>
+                            <tr>
+                                <th>Cantidad</th>
+                                <th>Descripcion</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="divBtn">
+                    <input type="submit" value="Enviar Revision" id="submitBtn">
+                </div>
+
             </form>
         </div>
     </div>
 </div>
+<script src="~/js/addRepuesto.js"></script>

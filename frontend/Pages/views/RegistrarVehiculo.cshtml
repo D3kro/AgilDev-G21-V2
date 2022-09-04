@@ -3,29 +3,45 @@
 @{
     ViewData["Title"] = "Registrar Vehiculo";
 }
+@Html.Partial("_navClient");
+<div class="conteinerDiv">
 
-<h1>@ViewData["Title"]</h1>
+    <div class="divConteiner">
+        <div class="divImg">
+            <img src="~/images/carBackground.jpg" alt="">
+        </div>
+        <div class="divForm">
+            <form class="form">
+                <div class="divInput">
+                    <label for="IdCar">Placa: </label>
+                    <input type="text" id="IdCar">
+                </div>
+                <div class="divInput">
+                    <label for="modelCar">Modelo: </label>
+                    <input type="text" id="modelCar">
+                </div>
+                <div class="divInput">
+                    <label for="MarcaCar">Marca: </label>
+                    <input type="text" id="MarcaCar">
+                </div>
+                <div class="divInput">
+                    <label for="ColorCar">Color: </label>
+                    <input type="text" id="ColorCar">
+                </div>
 
-<div>
-    <form>
-        <label for="IdCar">Placa: </label>
-        <input type="text" id="IdCar">
-        <label for="modelCar">Modelo: </label>
-        <input type="text" id="modelCar">
-        <label for="MarcaCar">Marca: </label>
-        <input type="text" id="MarcaCar">
-        <label for="ColorCar">Color: </label>
-        <input type="text" id="ColorCar">
-
-        
-            <div class="divInput">
-                <label for="typeCar">Tipo de auto: </label>
+                <div class="divInput">
+                    <label for="typeCar">Tipo de auto: </label>
                     <select id="estado">
                         <option>Seleccione una opcion</option>
                         <option>Auto</option>
                         <option>Camioneta</option>
                     </select>
-            </div>
-            <input type="submit" value="Registrar">
-    </form>
+                </div>
+                <div class="divBtn">
+                    <input type="submit" value="Registrar" id="submitBtn">
+                </div>
+
+            </form>
+        </div>
+    </div>
 </div>

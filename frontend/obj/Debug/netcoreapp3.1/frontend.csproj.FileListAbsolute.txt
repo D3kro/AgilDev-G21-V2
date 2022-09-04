@@ -88,3 +88,4 @@ D:\Escritorio\MisionTicAutos\AGILDEV-G21\frontend\bin\Debug\netcoreapp3.1\domini
 D:\Escritorio\MisionTicAutos\AGILDEV-G21\frontend\bin\Debug\netcoreapp3.1\persistencia.dll
 D:\Escritorio\MisionTicAutos\AGILDEV-G21\frontend\bin\Debug\netcoreapp3.1\persistencia.pdb
 D:\Escritorio\MisionTicAutos\AGILDEV-G21\frontend\bin\Debug\netcoreapp3.1\dominio.pdb
+D:\Escritorio\MisionTicAutos\AGILDEV-G21\frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_navClient.cshtml.g.cs
