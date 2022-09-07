@@ -1,0 +1,8 @@
+consola/bin/
+consola/obj/
+dominio/bin/
+dominio/obj/
+persistencia/bin/
+persistencia/obj/
+frontend/bin/
+frontend/obj/

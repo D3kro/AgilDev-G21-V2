@@ -1,9 +1,0 @@
-C:\NetCoreProject\MantenimientoTic\MantenimientoTic\dominio\obj\Debug\netstandard2.0\dominio.csprojAssemblyReference.cache
-C:\NetCoreProject\MantenimientoTic\MantenimientoTic\dominio\obj\Debug\netstandard2.0\dominio.AssemblyInfoInputs.cache
-C:\NetCoreProject\MantenimientoTic\MantenimientoTic\dominio\obj\Debug\netstandard2.0\dominio.AssemblyInfo.cs
-C:\NetCoreProject\MantenimientoTic\MantenimientoTic\dominio\obj\Debug\netstandard2.0\dominio.csproj.CoreCompileInputs.cache
-C:\NetCoreProject\MantenimientoTic\MantenimientoTic\dominio\bin\Debug\netstandard2.0\dominio.deps.json
-C:\NetCoreProject\MantenimientoTic\MantenimientoTic\dominio\bin\Debug\netstandard2.0\dominio.dll
-C:\NetCoreProject\MantenimientoTic\MantenimientoTic\dominio\bin\Debug\netstandard2.0\dominio.pdb
-C:\NetCoreProject\MantenimientoTic\MantenimientoTic\dominio\obj\Debug\netstandard2.0\dominio.dll
-C:\NetCoreProject\MantenimientoTic\MantenimientoTic\dominio\obj\Debug\netstandard2.0\dominio.pdb
